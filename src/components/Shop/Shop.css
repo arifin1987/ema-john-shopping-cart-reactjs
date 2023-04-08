@@ -1,0 +1,23 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* position: relative; */
+}
+.products-container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.btn-proceed{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.proceed-link{
+    text-decoration: none;
+}
